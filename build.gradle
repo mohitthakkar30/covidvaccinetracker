@@ -1,0 +1,28 @@
+plugins {
+	id 'org.springframework.boot' version '2.6.4'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'com.example'
+version = '1'
+sourceCompatibility = '1.8'
+apply plugin: 'war'
+
+repositories {
+	mavenCentral()
+}
+war {
+	enabled = true
+	archiveName 'ROOT.war'
+}
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+	implementation 'org.hyperledger.fabric:fabric-gateway-java:2.2.0'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

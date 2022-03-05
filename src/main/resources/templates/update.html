@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" >
+<title>Update Dose</title>
+</head>
+
+<body>
+
+<div>
+	<img src="globalvoximg-removebg.png" class="img">
+</div>
+
+<form action="/updateUser" method="post">
+
+		
+		<input name="key" type="text" class="feedback-input" placeholder="Key" required="required"/>
+		
+		<select class="feedback-input" name="dose" required="required">
+
+    <option disabled selected>Select your dose</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+  	</select>
+
+	 <input type="submit" value="SUBMIT"/>
+	
+
+</form>
+<div class="link-div">
+    <a href="/">
+        <button class="btn">INSERT</button>
+    </a>
+
+    <a href="/display">
+        <button class="mg-l btn">DISPLAY</button>
+    </a>
+
+</div>
+
+</body>
+</html>
