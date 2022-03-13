@@ -38,7 +38,7 @@ Now create channel or you can simply start the shell file created and named as r
 
 now open the covidvaccinetracker project and change the walletpath in application.properties as per your system
 
-run the project on server 
+run the project on localhost 
 
 
 For any help feel free to contact me on thakkarmohit90@gmail.com
