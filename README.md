@@ -21,18 +21,12 @@ updated as and when they receive the first or second shot.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-First clone the fabric-sample from my link because .tar.gz file of my project is already given in that
+First clone the fabric-sample
 
 (pre requisite of hyperledger fabric must be installed in the system)
 
-git clone https://github.com/mohitthakkar30/fabric-samples
-
-then
-
 git clone https://github.com/mohitthakkar30/covidvaccinetracker
 
-
-put both of this in same folder 
 
 Now create channel or you can simply start the shell file created and named as run.sh 
 
@@ -44,4 +38,5 @@ run the project on localhost
 For any help feel free to contact me on thakkarmohit90@gmail.com
 
 Linkedin:- https://www.linkedin.com/in/mohit-thakkar-3008/ 
+Twitter:- https://twitter.com/MOHIT_THAKKAR_
 
