@@ -20,21 +20,6 @@ updated as and when they receive the first or second shot.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-First clone the fabric-sample
-
-(pre requisite of hyperledger fabric must be installed in the system)
-
-git clone https://github.com/mohitthakkar30/covidvaccinetracker
-
-
-Now create channel or you can simply start the shell file created and named as run.sh 
-
-now open the covidvaccinetracker project and change the walletpath in application.properties as per your system
-
-run the project on localhost 
-
-
 For any help feel free to contact me on thakkarmohit90@gmail.com
 
 Linkedin:- https://www.linkedin.com/in/mohit-thakkar-3008/ 
